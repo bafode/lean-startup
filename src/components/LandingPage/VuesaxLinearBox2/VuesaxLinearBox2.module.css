@@ -1,0 +1,23 @@
+.root {
+  position: absolute;
+  left: 20%;
+  right: 20%;
+  top: 20%;
+  bottom: 20%;
+  width: 18px;
+  height: 18px;
+  align-items: flex-start;
+  border-radius: 3px;
+}
+.vuesaxLinearBox2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  overflow: visible;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+}

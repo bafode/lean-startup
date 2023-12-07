@@ -1,0 +1,21 @@
+.root {
+  position: absolute;
+  left: calc(50% - 193.6667px);
+  top: calc(50% - -610px);
+  width: 24px;
+  height: 24px;
+  align-items: flex-start;
+  transform: translate(-50%, -50%);
+}
+.vuesaxBoldBook {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 24px;
+  height: 24px;
+  overflow: visible;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+}
