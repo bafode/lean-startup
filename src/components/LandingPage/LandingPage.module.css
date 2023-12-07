@@ -24,7 +24,7 @@
 }
 .root {
   position: relative;
-  width: 1440px;
+  width: 100%;
   height: 4008px;
   align-items: flex-start;
   background-color: #fff;
@@ -256,7 +256,7 @@
   position: absolute;
   left: 171.1255px;
   top: 1450.2308px;
-  width: 454px;
+  width: 100%;
   height: 506px;
   align-items: flex-start;
   border-radius: 20px;
@@ -264,11 +264,12 @@
 }
 .frontViewFemaleTeacherPinkBlou {
   position: absolute;
-  left: 25.8745px;
+  left: 0px;
   top: -149.2308px;
-  width: 402px;
+  width: 80%;
   height: 655px;
-  background-image:/* webpackIgnore: true */ url('/assets/frontViewFemaleTeacherPinkBlou.jpg');
+  border-radius: 2%;
+  background-image:/* webpackIgnore: true */ url('/assets/profil2.jpeg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -288,21 +289,27 @@
 }
 .frame3 {
   position: absolute;
-  left: 858.1255px;
-  top: 160.2308px;
-  width: 454px;
+  left: 700.1255px;
+  top: 150.2308px;
+  width: 40%;
   height: 506px;
   align-items: flex-start;
+  padding-right: 100px;
   border-radius: 20px;
   background-color: #e8e6ff;
 }
 .icons8TeamFcLyt7lW5wgUnsplash1 {
   position: absolute;
+  /* left: calc(50% - 0.5px);
+  top: 121px;
+  width: 719px;
+  height: 627px; */
   left: calc(50% - 0.5px);
-  top: -121px;
-  width: 419px;
-  height: 627px;
-  background-image:/* webpackIgnore: true */ url('/assets/icons8TeamFcLyt7lW5wgUnsplash1.jpg');
+  height: 719px;
+  width: 100%;
+  margin-right: 100px;
+  border-radius: 2%;
+  background-image:/* webpackIgnore: true */ url('/assets/profil1.jpeg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -357,8 +364,8 @@
 }
 .image2 {
   position: absolute;
-  left: -8.3333%;
-  right: 1.6667%;
+  left: 35.3333%;
+  right: -1.6667%;
   top: -10%;
   bottom: -25%;
   width: 64px;
@@ -383,7 +390,7 @@
 }
 .image3 {
   position: absolute;
-  left: -28.3333%;
+  left: -1.3333%;
   right: -31.6667%;
   top: -43.3333%;
   bottom: -95%;
@@ -409,7 +416,7 @@
 }
 .image4 {
   position: absolute;
-  left: -3.3333%;
+  left: -10.3333%;
   right: -21.6667%;
   top: -20%;
   bottom: -68.3333%;
@@ -2009,7 +2016,7 @@
   position: absolute;
   left: 50%;
   bottom: 0;
-  width: 1440px;
+  width: 100%;
   height: 378px;
   align-items: flex-start;
   background-color: #1700ff;
