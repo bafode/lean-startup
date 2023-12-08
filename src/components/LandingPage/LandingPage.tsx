@@ -25,9 +25,9 @@ import { VuesaxLinearCode } from './VuesaxLinearCode/VuesaxLinearCode';
 import { VuesaxLinearPath } from './VuesaxLinearPath/VuesaxLinearPath';
 import { VuesaxLinearStatusUp } from './VuesaxLinearStatusUp/VuesaxLinearStatusUp';
 import { VuesaxOutlineArrowLeft } from './VuesaxOutlineArrowLeft/VuesaxOutlineArrowLeft';
-import myImg1 from "../../../public/assets/_11.jpg"
-import myImg2 from "../../../public/assets/_21.jpg"
-import myImg3 from "../../../public/assets/_31.jpg"
+import myImg1 from "./prof1.jpg"
+import myImg2 from "./prof2.jpg"
+import myImg3 from "./prof2.jpg"
 interface Props {
   className?: string;
 }
