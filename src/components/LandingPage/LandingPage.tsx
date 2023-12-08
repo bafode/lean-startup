@@ -27,7 +27,7 @@ import { VuesaxLinearStatusUp } from './VuesaxLinearStatusUp/VuesaxLinearStatusU
 import { VuesaxOutlineArrowLeft } from './VuesaxOutlineArrowLeft/VuesaxOutlineArrowLeft';
 import myImg1 from "./prof1.jpg"
 import myImg2 from "./prof2.jpg"
-import myImg3 from "./prof2.jpg"
+import myImg3 from "./prof3.jpg"
 interface Props {
   className?: string;
 }
