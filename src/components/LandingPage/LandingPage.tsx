@@ -25,7 +25,9 @@ import { VuesaxLinearCode } from './VuesaxLinearCode/VuesaxLinearCode';
 import { VuesaxLinearPath } from './VuesaxLinearPath/VuesaxLinearPath';
 import { VuesaxLinearStatusUp } from './VuesaxLinearStatusUp/VuesaxLinearStatusUp';
 import { VuesaxOutlineArrowLeft } from './VuesaxOutlineArrowLeft/VuesaxOutlineArrowLeft';
-
+import myImg1 from "../../../public/assets/_11.jpg"
+import myImg2 from "../../../public/assets/_21.jpg"
+import myImg3 from "../../../public/assets/_31.jpg"
 interface Props {
   className?: string;
 }
@@ -34,33 +36,33 @@ export const LandingPage: FC<Props> = memo(function LandingPage(props = {}) {
   return (
     <div className={`${resets.storybrainResets} ${classes.root}`}>
       <div className={classes.navbar}>
-        <a href='/'>
+        <a href='#'>
           <div className={classes.beeHave}>BeeHave</div>
         </a>
         <div className={classes.navItem}>
-          <a href='/'>
+          <a href='#'>
              <div className={classes.acueil}>Acueil</div>
           </a>
-          <a href='/'>
+          <a href='#'>
              <div className={classes.theme}>Thème</div>
           </a>
-          <a href='/'>
+          <a href='#'>
              <div className={classes.communaute}>Communauté</div>
           </a>
-          <a href='/'>
+          <a href='#'>
              <div className={classes.premium}>Premium</div>
           </a>
-          <a href='/'>
+          <a href='#'>
                <div className={classes.nosMentors}>Nos mentors</div>
           </a>
            
         </div>
         <div className={classes.btnCta}>
-          <a href='/'>
+          <a href='#'>
              <div className={classes.seConnecter}>Se Connecter</div>
           </a>
           
-          <a href='/'>
+          <a href='#'>
           <button className={classes.btnSignUp}>
             <div className={classes.sInscrire}>S’inscrire</div>
           </button>
@@ -73,12 +75,12 @@ export const LandingPage: FC<Props> = memo(function LandingPage(props = {}) {
         <div className={classes.textBlock3}>BeeHave, votre </div>
         <div className={classes.textBlock4}>communauté étudiante</div>
       </div>
-      <a href='/'>
+      <a href='#'>
       <div className={classes.frame1}>
         <div className={classes.commencer}>Commencer</div>
       </div>
       </a>
-      <a href='/'>
+      <a href='#'>
       <div className={classes.frame2}>
         <VuesaxBoldPlay className={classes.vuesaxBoldPlay} />
         <div className={classes.regarderLaVideo}>Regarder la Video</div>
@@ -121,7 +123,7 @@ export const LandingPage: FC<Props> = memo(function LandingPage(props = {}) {
           <div className={classes.textBlock6}>You Study at BeeHave</div>
         </div>
         <div className={classes.frame12}>
-          <a href='/'>
+          <a href='#'>
           <div className={classes.card1}>
             <div className={classes.rectangle3}></div>
             <div className={classes.frame11}>
@@ -134,7 +136,7 @@ export const LandingPage: FC<Props> = memo(function LandingPage(props = {}) {
             </div>
           </div>
           </a>
-          <a href='/'>
+          <a href='#'>
           <div className={classes.card2}>
             <div className={classes.rectangle32}></div>
             <div className={classes.frame112}>
@@ -147,7 +149,7 @@ export const LandingPage: FC<Props> = memo(function LandingPage(props = {}) {
             </div>
           </div>
           </a>
-          <a href='/'>
+          <a href='#'>
           <div className={classes.card3}>
             <div className={classes.rectangle33}></div>
             <div className={classes.frame113}>
@@ -160,7 +162,7 @@ export const LandingPage: FC<Props> = memo(function LandingPage(props = {}) {
             </div>
           </div>
           </a>
-          <a href='/'>
+          <a href='#'>
           <div className={classes.card4}>
             <div className={classes.rectangle34}></div>
             <div className={classes.frame114}>
@@ -185,7 +187,7 @@ export const LandingPage: FC<Props> = memo(function LandingPage(props = {}) {
           Avec notre plateforme, vous pourrez partager vos créations, votre contenu et échanger avec les autres
           étudiants afin de demander des conseils et d’apprendre avec eux.
         </div>
-        <a href='/'>
+        <a href='#'>
         <div className={classes.frame14}>
           <div className={classes.joindreMaintenant}>Joindre Maintenant!</div>
         </div>
@@ -202,8 +204,8 @@ export const LandingPage: FC<Props> = memo(function LandingPage(props = {}) {
       </div>
       <div className={classes.cardRow}>
         <div className={classes.frame25}>
-          <div className={classes._11}></div>
-          <a href='/'>
+          <img src={myImg1} alt="graph" className={classes._11} />
+          <a href='#'>
           <div className={classes.frame24}>
             <div className={classes.designGraphisme}>Design/Graphisme</div>
           </div>
@@ -217,8 +219,8 @@ export const LandingPage: FC<Props> = memo(function LandingPage(props = {}) {
           </div>
         </div>
         <div className={classes.frame262}>
-          <div className={classes._21}></div>
-         <a href='/'>
+        <img src={myImg2} alt="graph" className={classes._21} />
+         <a href='#'>
          <div className={classes.frame242}>
             <div className={classes.developpement}>Développement</div>
           </div>
@@ -232,8 +234,8 @@ export const LandingPage: FC<Props> = memo(function LandingPage(props = {}) {
           </div>
         </div>
         <div className={classes.frame27}>
-          <div className={classes._31}></div>
-          <a href='/'>
+          <img src={myImg3} alt="graph" className={classes._31} />
+          <a href='#'>
           <div className={classes.frame243}>
             <div className={classes.marketingDigital}>Marketing Digital</div>
           </div>
@@ -407,7 +409,7 @@ export const LandingPage: FC<Props> = memo(function LandingPage(props = {}) {
         </div>
       </div>
       
-      <a href='/'>
+      <a href='#'>
           <VuesaxOutlineArrowLeft className={classes.vuesaxOutlineArrowLeft} />
       </a>
       <div className={classes.footer}>
